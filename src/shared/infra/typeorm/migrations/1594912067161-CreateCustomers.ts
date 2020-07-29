@@ -23,12 +23,12 @@ export default class CreateCustomers1594912067161
             type: 'varchar',
           },
           {
-            name: 'created-at',
+            name: 'created_at',
             type: 'timestamp',
             default: 'now()',
           },
           {
-            name: 'updated-at',
+            name: 'updated_at',
             type: 'timestamp',
             default: 'now()',
           },

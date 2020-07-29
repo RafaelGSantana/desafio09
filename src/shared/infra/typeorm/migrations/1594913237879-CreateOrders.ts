@@ -14,12 +14,12 @@ export default class CreateOrders1594913237879 implements MigrationInterface {
             default: 'uuid_generate_v4()',
           },
           {
-            name: 'created-at',
+            name: 'created_at',
             type: 'timestamp',
             default: 'now()',
           },
           {
-            name: 'updated-at',
+            name: 'updated_at',
             type: 'timestamp',
             default: 'now()',
           },
