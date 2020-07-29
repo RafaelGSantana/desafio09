@@ -25,12 +25,12 @@ export default class CreateOrderProducts1594921592019
             type: 'int',
           },
           {
-            name: 'created-at',
+            name: 'created_at',
             type: 'timestamp',
             default: 'now()',
           },
           {
-            name: 'updated-at',
+            name: 'updated_at',
             type: 'timestamp',
             default: 'now()',
           },
